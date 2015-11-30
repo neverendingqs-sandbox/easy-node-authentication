@@ -6,19 +6,19 @@ module.exports = {
     'facebookAuth' : {
         'clientID'        : process.env.FACEBOOK_APP_ID,
         'clientSecret'    : process.env.FACEBOOK_APP_SECRET,
-        'callbackURL'     : 'http://localhost:8080/auth/facebook/callback'
+        'callbackURL'     : process.env.APP_URL + '/auth/facebook/callback'
     },
 
     'twitterAuth' : {
         'consumerKey'        : process.env.TWITTER_KEY,
         'consumerSecret'     : process.env.TWITTER_SECRET,
-        'callbackURL'        : 'http://localhost:8080/auth/twitter/callback'
+        'callbackURL'        : process.env.APP_URL + '/auth/twitter/callback'
     },
 
     'googleAuth' : {
         'clientID'         : process.env.GOOGLE_PLUS_CLIENT_ID,
         'clientSecret'     : process.env.GOOGLE_PLUS_CLIENT_SECRET,
-        'callbackURL'      : 'http://localhost:8080/auth/google/callback'
+        'callbackURL'      : process.env.APP_URL + '/auth/google/callback'
     }
 
 };
