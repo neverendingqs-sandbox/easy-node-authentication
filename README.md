@@ -1,3 +1,10 @@
+# Easy Node Authentication - Heroku and MongoLab Demo
+Forked to be deployed using [Heroku](https://www.heroku.com/) and [MongoLab](https://mongolab.com/).
+
+
+----------
+
+
 # Easy Node Authentication
 
 Code for the entire scotch.io tutorial series: Complete Guide to Node Authentication
